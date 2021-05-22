@@ -1,0 +1,98 @@
+{
+   "name": "call-of-cthulhu-compendiums",   
+   "title": "Call of Cthulhu Compendiums",   
+   "description": "Sharing COC data across worlds",   
+   "author": "Christian Ovsenik",
+   "version": "1.1.8",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.7.9",
+   "url": "",
+   "download": "",
+   "manifest": "",
+   "packs": [
+     {
+	"name": "call-of-cthulhu-monsters",
+	"label": "Monsters",
+	"path": "packs/call-of-cthulhu-monsters.db",
+	"entity": "Actor",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-players",
+	"label": "Player Characters",
+	"path": "packs/call-of-cthulhu-players",
+	"entity": "Actor",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+        "name": "call-of-cthulhu-items",
+        "label": "Gear",
+        "path": "packs/call-of-cthulhu-items.db",
+        "entity": "Item",
+        "module": "call-of-cthulhu-compendiums"
+     },
+     {
+        "name": "call-of-cthulhu-equipment",
+        "label": "Equipment",
+        "path": "packs/call-of-cthulhu-equipment.db",
+        "entity": "Item",
+        "module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-weapons",
+	"label": "Weapons",
+	"path": "packs/call-of-cthulhu-weapons.db",
+	"entity": "Item",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+        "name": "call-of-cthulhu-scenes",
+        "label": "Scenes",
+        "path": "packs/call-of-cthulhu-scenes.db",
+	"entity": "Scene",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-handouts",
+	"label": "Handouts",
+	"path": "packs/call-of-cthulhu-handouts.db",
+	"entity": "JournalEntry",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-playlists",
+	"label": "Playlists",
+	"path": "packs/call-of-cthulhu-playlists.db",
+	"entity": "Playlist",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-cheatsheets",
+	"label": "Cheatsheets",
+	"path": "packs/call-of-cthulhu-cheatsheets.db",
+	"entity": "JournalEntry",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+        "name": "call-of-cthulhu-spells",
+        "label": "Spells",
+        "path": "packs/call-of-cthulhu-spells.db",
+        "entity": "Item",
+        "module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-macros",
+	"label": "Macros",
+	"path": "packs/call-of-cthulhu-macros.db",
+	"entity": "Macro",
+	"module": "call-of-cthulhu-compendiums"
+     },
+     {
+	"name": "call-of-cthulhu-tables",
+	"label": "Tables",
+	"path": "packs/call-of-cthulhu-tables.db",
+	"entity": "RollTable",
+	"module": "call-of-cthulhu-compendiums"
+     }
+   ]	
+}
